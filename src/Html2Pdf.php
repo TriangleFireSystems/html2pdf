@@ -4514,6 +4514,8 @@ class Html2Pdf
             $paramPUCE['sub_li'] = true;
         }
 
+        $paramPUCE['style']['font-size'] = '8pt';
+
         $this->_tag_open_TR($param, 'li');
 
         $this->parsingCss->save();
